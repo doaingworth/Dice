@@ -6,7 +6,7 @@ Die[][] dice = new Die[xx][yy];
 
 void setup()
 {
-  size(2060, 1560);
+  size(810, 690);
   noLoop();
   //gotchaBoy = new Die(30,30,90,90);
   for (int x = 0; x < xx; x++) {
