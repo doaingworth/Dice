@@ -49,7 +49,7 @@ class Die //models one single dice cube
   }
   void roll()
   {
-    dieValue = (int) (random(1, 6));
+    dieValue = (int) (random(1, 7));
   }
   void show()
   {
