@@ -1,5 +1,5 @@
-int xx = 20;
-int yy = 15;
+int xx = 25;
+int yy = 30;
 
 Die[][] dice = new Die[xx][yy];
 //Die gotchaBoy;
@@ -11,7 +11,7 @@ void setup()
   //gotchaBoy = new Die(30,30,90,90);
   for (int x = 0; x < xx; x++) {
     for (int y = 0; y < yy; y++) {
-      dice[x][y] = new Die(100 * x + 30, 100 * y + 30, 90, 90);
+      dice[x][y] = new Die(40 * x + 10, 40 * y + 10, 30, 30);
     }
   }
 }
@@ -56,7 +56,7 @@ class Die //models one single dice cube
     fill(0, 0, 0);
     rect(locX, locY, sizeX, sizeY);
     fill(255, 255, 255);
-    textSize(64);
-    text(dieValue, locX + 45, locY + 60);
+    textSize(32);
+    text(dieValue, locX + sizeX*(1/3), locY + sizeY*(1/1));
   }
 }
