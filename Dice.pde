@@ -1,5 +1,5 @@
-int xx = 25;
-int yy = 30;
+int xx = 20;
+int yy = 17;
 
 Die[][] dice = new Die[xx][yy];
 //Die gotchaBoy;
